@@ -1,0 +1,41 @@
+key,en_US,zh_TW,ja_JP
+验证码识别（本地）,Captcha Recognition (Local),驗證碼辨識（本機）,CAPTCHA認識（ローカル）
+两套验证码专用ONNX模型，纯CPU、完全离线。Beta模式推荐先用于比赛。,Two CAPTCHA ONNX models. CPU-only and fully offline. Start with Beta mode.,兩套驗證碼ONNX模型，純CPU、完全離線。建議先使用Beta模式。,2つのCAPTCHA用ONNXモデル。CPUのみ・完全オフライン。Beta推奨。
+自定义ONNX模型,Custom ONNX model,自訂ONNX模型,カスタムONNXモデル
+仅在局部模式选择custom时使用。,Used only when local mode is custom.,僅在局部模式選擇custom時使用。,customモードでのみ使用します。
+推理线程数,Inference threads,推理執行緒數,推論スレッド数
+0为ONNX Runtime自动；老CPU或异常环境可设为1。,0 lets ONNX Runtime decide; use 1 on old CPUs or unusual environments.,0為自動；舊CPU或異常環境可設為1。,0は自動。古いCPUや特殊環境では1に設定。
+自定义charsets.json,Custom charsets.json,自訂charsets.json,カスタムcharsets.json
+由dddd_trainer导出的字符集配置。,Charset configuration exported by dddd_trainer.,由dddd_trainer匯出的字元設定。,dddd_trainerが出力した文字セット設定。
+模型常驻内存,Keep models loaded,模型常駐記憶體,モデルを常駐
+建议开启，避免每张验证码重复加载模型。,Keep enabled to avoid loading for every CAPTCHA.,建議開啟，避免每張驗證碼重複載入模型。,CAPTCHAごとの再ロードを防ぐため有効推奨。
+文字识别,Text recognition,文字辨識,文字認識
+模型模式,Model mode,模型模式,モデルモード
+Beta单模型（推荐/快速）,Beta single model (recommended/fast),Beta單模型（推薦/快速）,Beta単体（推奨・高速）
+经典单模型,Classic single model,經典單模型,クラシック単体
+双模型原图投票,Dual-model raw voting,雙模型原圖投票,2モデル原画像投票
+比赛模式：双模型×原图/保守去灰,Race: dual models x raw/safe-gray,比賽：雙模型×原圖/保守去灰,競技：2モデル×原画像/安全グレー除去
+自定义训练模型,Custom trained model,自訂訓練模型,カスタム学習モデル
+比赛模式每图推理4次；先评测，确认有收益后再启用。,Race mode runs four inferences per image. Benchmark before enabling.,比賽模式每圖推理4次；評測後再啟用。,競技モードは1画像4回推論。評価後に有効化してください。
+字符范围,Character range,字元範圍,文字範囲
+小写字母+数字（推荐）,Lowercase + digits (recommended),小寫字母+數字（推薦）,小文字+数字（推奨）
+大小写字母+数字,Upper/lowercase + digits,大小寫字母+數字,大小文字+数字
+纯数字,Digits only,純數字,数字のみ
+纯小写字母,Lowercase only,純小寫字母,小文字のみ
+大写字母+数字,Uppercase + digits,大寫字母+數字,大文字+数字
+范围越准确，误识别候选越少。,A precise range reduces false candidates.,範圍越準確，誤識別候選越少。,正確な範囲ほど誤候補が減ります。
+精确字符表,Exact character set,精確字元表,正確な文字セット
+非空时覆盖上面的字符范围，例如23456789abcdefghjkmnpqrstuvwxyz。,Overrides the range when non-empty.,非空時覆蓋上面的字元範圍。,空でない場合は上の範囲を上書きします。
+验证码长度,CAPTCHA length,驗證碼長度,CAPTCHA長
+严格长度校验,Strict length check,嚴格長度檢查,長さを厳密に検査
+长度不符时返回无结果，便于外部程序切换验证码。,Return no result on length mismatch so callers can refresh.,長度不符時返回無結果，便於外部程式切換驗證碼。,長さ不一致時は結果なしを返します。
+解码器,Decoder,解碼器,デコーダー
+定长CTC束搜索（推荐）,Fixed-length CTC beam search (recommended),定長CTC束搜尋（推薦）,固定長CTCビーム探索（推奨）
+贪心解码（更快）,Greedy decoding (faster),貪心解碼（更快）,貪欲デコード（高速）
+束搜索宽度,Beam width,束搜尋寬度,ビーム幅
+最低置信度,Minimum confidence,最低置信度,最低信頼度
+先保持0收集评测数据，再按错误样本分布设置阈值。,Keep at 0 while benchmarking; tune from error distributions later.,先保持0收集評測資料，再調整閾值。,評価中は0にし、誤り分布から後で調整します。
+保守去灰色差,Safe-gray chroma,保守去灰色差,安全グレー色差
+仅比赛模式使用；数值越小越保守。,Race mode only. Lower is safer.,僅比賽模式使用；數值越小越保守。,競技モードのみ。小さいほど安全です。
+去灰最低亮度,Gray removal minimum luma,去灰最低亮度,グレー除去最小輝度
+去灰最高亮度,Gray removal maximum luma,去灰最高亮度,グレー除去最大輝度
