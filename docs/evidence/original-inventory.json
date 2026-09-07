@@ -1,0 +1,352 @@
+[
+  {
+    "path": "DDDDOCR_Captcha_Umi/README.md",
+    "size": 1780,
+    "sha256": "edfaed168b149554681ac5ba0a7bd8df499fb0dff7b4282c2c1a75e0a3cc6ca3"
+  },
+  {
+    "path": "DDDDOCR_Captcha_Umi/VERSION.txt",
+    "size": 66,
+    "sha256": "cc41a6dea724b045fb8a556c39555690e1809a7271de6adccf51fb5d8e5afbc7"
+  },
+  {
+    "path": "DDDDOCR_Captcha_Umi/__init__.py",
+    "size": 378,
+    "sha256": "37f4b47e9564d0a4bbdf80a89cafe98590b7d6d669d2ef18ac16433d27b7a483"
+  },
+  {
+    "path": "DDDDOCR_Captcha_Umi/captcha_preprocess.py",
+    "size": 1088,
+    "sha256": "e28bceba59505cbffe1e28e18060ef8f716fc087faee401fd5eb527b87448078"
+  },
+  {
+    "path": "DDDDOCR_Captcha_Umi/ctc_decoder.py",
+    "size": 4144,
+    "sha256": "6423e1a64435cd6f9af03533d0e8adef4f9382e03f5681d10babbe5c949f6abd"
+  },
+  {
+    "path": "DDDDOCR_Captcha_Umi/ddddocr_api.py",
+    "size": 8350,
+    "sha256": "157706e031ecb868fbf96111befc48d6b031f8b3bac6929cbc0df8faa8430fd5"
+  },
+  {
+    "path": "DDDDOCR_Captcha_Umi/ddddocr_config.py",
+    "size": 4220,
+    "sha256": "7bb806061ca241495adc21958db98be2eed5d532ccc6d6811598e8501ab8a654"
+  },
+  {
+    "path": "DDDDOCR_Captcha_Umi/ddddocr_engine.py",
+    "size": 5573,
+    "sha256": "65298887b6819cea6fc4a8ecc60bbab4b8b762c5b52025f202b9709c4d90fc02"
+  },
+  {
+    "path": "DDDDOCR_Captcha_Umi/ddddocr_worker.py",
+    "size": 3953,
+    "sha256": "5abd543fcacaec673beb42c345537dad6c8e055bfc352950b89a7673dfffd595"
+  },
+  {
+    "path": "DDDDOCR_Captcha_Umi/i18n.csv",
+    "size": 4992,
+    "sha256": "eed256763e106335adf19d18445b1fcf71692d91195b473c23a52b1d0ad1fa16"
+  },
+  {
+    "path": "DDDDOCR_Captcha_Umi/tools/benchmark_folder.bat",
+    "size": 510,
+    "sha256": "523ec8ecb324a5a856cd8179585edc7ea75f24793ef4826cc45130968e72a9d0"
+  },
+  {
+    "path": "DDDDOCR_Captcha_Umi/tools/benchmark_folder.py",
+    "size": 3157,
+    "sha256": "141be13dfb6ab246adadbf9a3c23ff1ae09dc78205ea2cfed62ef83979f4de2b"
+  },
+  {
+    "path": "DDDDOCR_Captcha_Umi/tools/self_check.bat",
+    "size": 551,
+    "sha256": "174d35f196bf40bae8747cd785c832918a48da518ec695ec5d0d7f238166d557"
+  },
+  {
+    "path": "DDDDOCR_Captcha_Umi/tools/self_check.py",
+    "size": 2288,
+    "sha256": "3e00a5375816cedfb1c1715dd94622d8684d722f6324d07c4a8af4d669cee194"
+  },
+  {
+    "path": "HyperLPR3_Plate_CPU/README.md",
+    "size": 844,
+    "sha256": "286a0053e1b3cc7b2b4d8cf8efdbc2cd3ca7b9ff72460097c648dc4986c49df2"
+  },
+  {
+    "path": "HyperLPR3_Plate_CPU/i18n.csv",
+    "size": 3465,
+    "sha256": "6b06e7a8a3a704384ef36d045e2626944d32e8b0d4b80faf3cb2ebc252812385"
+  },
+  {
+    "path": "HyperLPR3_Plate_CPU/lpr_api.py",
+    "size": 5232,
+    "sha256": "04d897dd05b3a74ccbb6d09b979e0c630df0bbf4c68b82f4f915c9d611e52b7b"
+  },
+  {
+    "path": "HyperLPR3_Plate_CPU/lpr_config.py",
+    "size": 2890,
+    "sha256": "7220a6c1cfc374ee53e2db46d78d7ac440fc9795a83d645720863daf25af2a68"
+  },
+  {
+    "path": "HyperLPR3_Plate_CPU/lpr_engine/__init__.py",
+    "size": 111,
+    "sha256": "f4acbd07b211a216de84ace508db753624b94fc22558ea6b85b163a688d93b89"
+  },
+  {
+    "path": "HyperLPR3_Plate_CPU/lpr_engine/__pycache__/__init__.cpython-38.pyc",
+    "size": 258,
+    "sha256": "9d2023e8fd3014fbfe11c5d379936bbc9bfc49cda31cb333d025166dd491bb23"
+  },
+  {
+    "path": "HyperLPR3_Plate_CPU/lpr_engine/__pycache__/imgio.cpython-38.pyc",
+    "size": 2546,
+    "sha256": "855b6ae7c1a430a4ca09badddf564d23146a45ffc267b2132134834786f47d01"
+  },
+  {
+    "path": "HyperLPR3_Plate_CPU/lpr_engine/__pycache__/paths.cpython-38.pyc",
+    "size": 2997,
+    "sha256": "7a7b6a8b4a80db1870bf07349352d023e71558846fcf7aa04e7f92b62bf02529"
+  },
+  {
+    "path": "HyperLPR3_Plate_CPU/lpr_engine/__pycache__/pipeline.cpython-38.pyc",
+    "size": 10548,
+    "sha256": "b4831cad951e13fb3a7685878732d18859204d181635bfec44e4ca9559c9b2aa"
+  },
+  {
+    "path": "HyperLPR3_Plate_CPU/lpr_engine/__pycache__/utils.cpython-38.pyc",
+    "size": 5568,
+    "sha256": "534e07b9c78506e2eb941feb26862cf116899590e988831cb9fe7f25cd27b771"
+  },
+  {
+    "path": "HyperLPR3_Plate_CPU/lpr_engine/imgio.py",
+    "size": 2398,
+    "sha256": "f58fa955051f08f2d0b69dd769fcd2efaa0d16b5d9c1a806fa05f45038d1938e"
+  },
+  {
+    "path": "HyperLPR3_Plate_CPU/lpr_engine/paths.py",
+    "size": 3327,
+    "sha256": "c9c688c94aae6bf5b154620f82654bf810c16a3668f5e3f595f03808611a92a0"
+  },
+  {
+    "path": "HyperLPR3_Plate_CPU/lpr_engine/pipeline.py",
+    "size": 12359,
+    "sha256": "48e5fb1ba9236c012dc2a568434659c306c9502a4a861e895a3f763ac76b5ce3"
+  },
+  {
+    "path": "HyperLPR3_Plate_CPU/lpr_engine/utils.py",
+    "size": 5450,
+    "sha256": "5d9d5ff760f7f91cbc062f640395a578fbfab0c9be79257370665fea015fc89b"
+  },
+  {
+    "path": "HyperLPR3_Plate_CPU/tools/download_models.bat",
+    "size": 324,
+    "sha256": "a9cc00f097770f28b82ebef5726bd9b23b4e783ca99170f4ebd51601e25f78cb"
+  },
+  {
+    "path": "HyperLPR3_Plate_CPU/tools/download_models.py",
+    "size": 4559,
+    "sha256": "9f9c465d1ca57f7e2a79e178c4a0fef58b76d87be543f74da42656592664abf5"
+  },
+  {
+    "path": "HyperLPR3_Plate_CPU/tools/get-pip.py",
+    "size": 2300180,
+    "sha256": "6ed6e98282a504ee0a6632856e16c39f222d313fc38be33de216d4afb6ac12f7"
+  },
+  {
+    "path": "HyperLPR3_Plate_CPU/tools/install_deps.bat",
+    "size": 508,
+    "sha256": "38fe6c5481034a312485e72cb3cc04ca926f5ccded402dcb5d20b6f2a444240c"
+  },
+  {
+    "path": "HyperLPR3_Plate_CPU/tools/install_deps.py",
+    "size": 9242,
+    "sha256": "9fa13a3f65534e1dc2294b2ea4e252bfafeb79c19b356d1ac717b00675b44b02"
+  },
+  {
+    "path": "HyperLPR3_Plate_CPU/tools/install_deps_nopip.bat",
+    "size": 327,
+    "sha256": "aa3f0427070f6705189827b9739aef38854974d739ee325a54b2df22446dd5bd"
+  },
+  {
+    "path": "HyperLPR3_Plate_CPU/tools/install_deps_nopip.py",
+    "size": 8879,
+    "sha256": "de1ab5dd25e5326bad84998fb8e0ba3f215354257ed146a0d16e7b7eabe82c5e"
+  },
+  {
+    "path": "HyperLPR3_Plate_CPU/tools/self_check.bat",
+    "size": 319,
+    "sha256": "09f3a3529c30725641bd3732afe1f9e8d8e3fe902babfdb74d45a4c2f193717b"
+  },
+  {
+    "path": "HyperLPR3_Plate_CPU/tools/self_check.py",
+    "size": 3891,
+    "sha256": "8110087c4a539995a6544d576413fd6cdc02fb645fdc7d499ba3f78240e732bc"
+  },
+  {
+    "path": "PPOCRv6_ONNX_CPU/README.md",
+    "size": 885,
+    "sha256": "eaf21bb162b52e8c785e7a3fe693c6d053ddf5fd00e3e07adc1dfc8f3e5a1a20"
+  },
+  {
+    "path": "PPOCRv6_ONNX_CPU/__init__.py",
+    "size": 703,
+    "sha256": "147dd8266785074bf7c28d45b8a29c3fa728380e85e796c3421bb11a68dc30b6"
+  },
+  {
+    "path": "PPOCRv6_ONNX_CPU/i18n.csv",
+    "size": 5264,
+    "sha256": "6e2aea454cd425d4af90c359b51885ddec110bcdb4b3da887974322e23621578"
+  },
+  {
+    "path": "PPOCRv6_ONNX_CPU/ocr_engine/__init__.py",
+    "size": 125,
+    "sha256": "6fa001394f811beb839b5cfac214f18d65b35b15981d49fd6a6a9e26d623698c"
+  },
+  {
+    "path": "PPOCRv6_ONNX_CPU/ocr_engine/__pycache__/__init__.cpython-38.pyc",
+    "size": 274,
+    "sha256": "6765e177f299e04a73ecce189c9277c67d094ddbfc4cc046f6309e2656c8de2f"
+  },
+  {
+    "path": "PPOCRv6_ONNX_CPU/ocr_engine/__pycache__/cls.cpython-38.pyc",
+    "size": 2328,
+    "sha256": "1a14471e2371de88494651993b695e595d0e503387ae9b13bdef18089a282a16"
+  },
+  {
+    "path": "PPOCRv6_ONNX_CPU/ocr_engine/__pycache__/det.cpython-38.pyc",
+    "size": 7353,
+    "sha256": "44b4dd9134f3def2a326bc199eaff87c834f1f09467ded025e0b226b15220600"
+  },
+  {
+    "path": "PPOCRv6_ONNX_CPU/ocr_engine/__pycache__/imgio.cpython-38.pyc",
+    "size": 2543,
+    "sha256": "165039d0e3a6f28c31babc9dcc4e201b59aa0935775d6e8e671b08c4eec966c7"
+  },
+  {
+    "path": "PPOCRv6_ONNX_CPU/ocr_engine/__pycache__/ort_utils.cpython-38.pyc",
+    "size": 1938,
+    "sha256": "212e7c23a929a10cb9373429927c8ae1c4925a0d0c24de7cd936c908c8123d8b"
+  },
+  {
+    "path": "PPOCRv6_ONNX_CPU/ocr_engine/__pycache__/paths.cpython-38.pyc",
+    "size": 3607,
+    "sha256": "ec2189ba8ed1e7c8681ebd108c2098194ffa928dc6a55574d215143059879917"
+  },
+  {
+    "path": "PPOCRv6_ONNX_CPU/ocr_engine/__pycache__/pipeline.cpython-38.pyc",
+    "size": 5254,
+    "sha256": "bf287c52d0f2efd6cf81b59d060fb7a4d533927d77fdafd45acd3a7ea389c643"
+  },
+  {
+    "path": "PPOCRv6_ONNX_CPU/ocr_engine/__pycache__/ppyaml.cpython-38.pyc",
+    "size": 5173,
+    "sha256": "719e5fad89b226d41fa44005d6504b4c5ea2ef5ef1a538131e2399f695ed3303"
+  },
+  {
+    "path": "PPOCRv6_ONNX_CPU/ocr_engine/__pycache__/rec.cpython-38.pyc",
+    "size": 4179,
+    "sha256": "b6333707ba65b81a7f7d9f064e5f01540d087d234fa163b2b39da3352264fd55"
+  },
+  {
+    "path": "PPOCRv6_ONNX_CPU/ocr_engine/cls.py",
+    "size": 2326,
+    "sha256": "afc8a2213920b7e8c16e8ffb68b5b1ee0a36037091a4bc3304c8fd7a86509e92"
+  },
+  {
+    "path": "PPOCRv6_ONNX_CPU/ocr_engine/det.py",
+    "size": 7950,
+    "sha256": "5f8966230f33429f24f3bae06a4c04ca63f463fc56d8140d92faabe194af84e2"
+  },
+  {
+    "path": "PPOCRv6_ONNX_CPU/ocr_engine/imgio.py",
+    "size": 2398,
+    "sha256": "f58fa955051f08f2d0b69dd769fcd2efaa0d16b5d9c1a806fa05f45038d1938e"
+  },
+  {
+    "path": "PPOCRv6_ONNX_CPU/ocr_engine/ort_utils.py",
+    "size": 1773,
+    "sha256": "73c2db9b9cbf5ef07a6e667c5dd474c55712daa8e47954a3b7698fe06ae3fd84"
+  },
+  {
+    "path": "PPOCRv6_ONNX_CPU/ocr_engine/paths.py",
+    "size": 4674,
+    "sha256": "21f47bdace3d5611a1fa101215eab5642f2ee52985b0a1c5fec4331884f64bf2"
+  },
+  {
+    "path": "PPOCRv6_ONNX_CPU/ocr_engine/pipeline.py",
+    "size": 7057,
+    "sha256": "33bb0a1a23711c20b53cf052699a4119c18ba40669cfdb03b58759e0baac11d3"
+  },
+  {
+    "path": "PPOCRv6_ONNX_CPU/ocr_engine/ppyaml.py",
+    "size": 6963,
+    "sha256": "70471f410054987d3a8afb8bd52903e16e6fed024c4629a096de7fa61d32f1c3"
+  },
+  {
+    "path": "PPOCRv6_ONNX_CPU/ocr_engine/rec.py",
+    "size": 4314,
+    "sha256": "fcecb83db764a814a291091e9b7ca81c1a8454e66545b8797c1499a9563f578a"
+  },
+  {
+    "path": "PPOCRv6_ONNX_CPU/ppocr_api.py",
+    "size": 6369,
+    "sha256": "320cd228238e2b5a5c050efa093f6138a0aa2f9d76920e42524b13787a176b3f"
+  },
+  {
+    "path": "PPOCRv6_ONNX_CPU/ppocr_config.py",
+    "size": 4294,
+    "sha256": "de81c98bc733f01244c0a6a8a8b070ca08d38ead2e62afb3217cd40e98a37733"
+  },
+  {
+    "path": "PPOCRv6_ONNX_CPU/tools/_self_check_tmp.png",
+    "size": 9639,
+    "sha256": "9e736373e72510cd86b57a1768f64e765a0916db8f14b7407dc3534de154ce56"
+  },
+  {
+    "path": "PPOCRv6_ONNX_CPU/tools/download_models.bat",
+    "size": 324,
+    "sha256": "a9cc00f097770f28b82ebef5726bd9b23b4e783ca99170f4ebd51601e25f78cb"
+  },
+  {
+    "path": "PPOCRv6_ONNX_CPU/tools/download_models.py",
+    "size": 5037,
+    "sha256": "b912e1d8ce6c15e7dab1fcef3cdaecae53c4d224bb181f5d2444f153b6aa9a89"
+  },
+  {
+    "path": "PPOCRv6_ONNX_CPU/tools/get-pip.py",
+    "size": 2300180,
+    "sha256": "6ed6e98282a504ee0a6632856e16c39f222d313fc38be33de216d4afb6ac12f7"
+  },
+  {
+    "path": "PPOCRv6_ONNX_CPU/tools/install_deps.bat",
+    "size": 508,
+    "sha256": "38fe6c5481034a312485e72cb3cc04ca926f5ccded402dcb5d20b6f2a444240c"
+  },
+  {
+    "path": "PPOCRv6_ONNX_CPU/tools/install_deps.py",
+    "size": 9405,
+    "sha256": "4c10e6de43990dea429ea07c18d6df6600748eddd4e4bddaa7482934d5b3cea7"
+  },
+  {
+    "path": "PPOCRv6_ONNX_CPU/tools/install_deps_nopip.bat",
+    "size": 327,
+    "sha256": "aa3f0427070f6705189827b9739aef38854974d739ee325a54b2df22446dd5bd"
+  },
+  {
+    "path": "PPOCRv6_ONNX_CPU/tools/install_deps_nopip.py",
+    "size": 8913,
+    "sha256": "ea71c06b994dab769f93fdc67a6bd9eb0555cee7224e18a55ad8259d4b78b073"
+  },
+  {
+    "path": "PPOCRv6_ONNX_CPU/tools/self_check.bat",
+    "size": 319,
+    "sha256": "09f3a3529c30725641bd3732afe1f9e8d8e3fe902babfdb74d45a4c2f193717b"
+  },
+  {
+    "path": "PPOCRv6_ONNX_CPU/tools/self_check.py",
+    "size": 5599,
+    "sha256": "81968617a6e5941abd020399a75fe847c3e4edc42c1d2d60588f8656a7e858ad"
+  }
+]
