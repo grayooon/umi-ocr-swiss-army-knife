@@ -1,0 +1,7 @@
+{
+  "Apache-2.0.txt": "https://raw.githubusercontent.com/PaddlePaddle/PaddleOCR/main/LICENSE",
+  "Umi-OCR-MIT.txt": "https://raw.githubusercontent.com/hiroi-sora/Umi-OCR/main/LICENSE",
+  "ddddocr-MIT.txt": "https://raw.githubusercontent.com/sml2h3/ddddocr/master/LICENSE",
+  "HyperLPR-Apache-2.0.txt": "https://raw.githubusercontent.com/szad670401/HyperLPR/58ad4ef736fec5289e8c8cb842e066e70c4672c3/LICENSE",
+  "ONNXRuntime-MIT.txt": "https://raw.githubusercontent.com/microsoft/onnxruntime/v1.19.2/LICENSE"
+}

@@ -1,0 +1,26 @@
+key,en_US,zh_TW,ja_JP
+车牌识别,License plate recognition,車牌辨識,ナンバープレート認識
+（本地）, (Local),（本機）,（ローカル）
+中国车牌识别，ONNX Runtime 纯 CPU 推理，完全离线。,Chinese license plate recognition. ONNX Runtime CPU-only. Fully offline.,中國車牌辨識，ONNX Runtime 純 CPU 推理，完全離線。,中国のナンバープレート認識。CPU のみ。完全オフライン。
+模型目录,Models folder,模型目錄,モデルフォルダ
+选择存放车牌模型的目录,Select the folder containing plate models,選擇存放車牌模型的目錄,モデルのフォルダを選択
+留空则自动搜索：插件目录 models 、软件目录 models 、用户目录 .hyperlpr3 。,"Leave empty to auto-search: plugin models/, app models/, ~/.hyperlpr3.",留空則自動搜尋。,空欄なら自動検索します。
+推理线程数,Inference threads,推理執行緒數,推論スレッド数
+线程,threads,執行緒,スレッド
+单个模型内部的并行线程数。0 = 自动（按 CPU 核心数）。,Intra-op threads per model. 0 = auto (CPU cores).,單一模型內部的平行執行緒數。0 = 自動。,モデル内部の並列スレッド数。0 で自動。
+并发车牌数,Plate concurrency,並行車牌數,並列プレート数
+一张图中有多个车牌时，并行识别的数量。,Number of plates recognized in parallel within one image.,一張圖中有多個車牌時，並行辨識的數量。,1枚の画像内で並列に認識する枚数。
+检测精度,Detection accuracy,偵測精度,検出精度
+320 - 高速（推荐）,320 - fast (recommended),320 - 高速（推薦）,320 - 高速（推奨）
+640 - 高精度/远景小车牌,640 - accurate / small distant plates,640 - 高精度/遠景小車牌,640 - 高精度／小さいプレート
+640 输入更适合车牌较小或较远的场景，速度约为 320 的三分之一。,640 input suits small or distant plates; about 3x slower than 320.,640 輸入更適合車牌較小或較遠的場景。,640 は小さい・遠いプレート向けです。
+检测置信度阈值,Detection threshold,偵測置信度閾值,検出閾値
+低于该分数的车牌框会被丢弃。漏检时可调低。,Plate boxes below this score are dropped. Lower it if plates are missed.,低於該分數的車牌框會被丟棄。,この値未満の枠を破棄します。
+识别置信度下限,Minimum confidence,辨識置信度下限,信頼度の下限
+丢弃识别置信度低于该值的车牌。0 表示不丢弃。,Drop plates below this confidence. 0 = keep all.,丟棄置信度低於該值的車牌。,この値未満の結果を破棄します。
+识别车牌颜色,Detect plate colour,辨識車牌顏色,プレート色の判定
+用颜色分类模型区分蓝牌/黄牌/绿牌。关闭可略微提速。,Use the colour classifier for blue/yellow/green plates. Turn off for a small speed-up.,用顏色分類模型區分藍牌/黃牌/綠牌。,色分類モデルを使用します。
+输出车牌类型,Append plate type,輸出車牌類型,種別を出力
+开启后，识别文本形如：京A12345 [蓝牌],"When on, output looks like: 京A12345 [blue]",開啟後，辨識文字形如：京A12345 [藍牌],オンにすると種別を付加します。
+NMS 阈值,NMS threshold,NMS 閾值,NMS 閾値
+重叠框抑制阈值。默认 0.5 。,Overlap suppression threshold. Default 0.5.,重疊框抑制閾值。,重複枠の抑制閾値。
