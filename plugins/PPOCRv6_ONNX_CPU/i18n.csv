@@ -1,0 +1,34 @@
+key,en_US,zh_TW,ja_JP
+PP-OCRv6,PP-OCRv6,PP-OCRv6,PP-OCRv6
+（本地）, (Local),（本機）,（ローカル）
+百度飞桨 PP-OCRv6 ，ONNX Runtime 纯 CPU 推理，完全离线。,Baidu PaddleOCR PP-OCRv6. ONNX Runtime CPU-only inference. Fully offline.,百度飛槳 PP-OCRv6 ，ONNX Runtime 純 CPU 推理，完全離線。,PaddleOCR PP-OCRv6。ONNX Runtime による CPU 推論。完全オフライン。
+模型目录,Models folder,模型目錄,モデルフォルダ
+选择存放 PP-OCRv6 模型的目录,Select the folder containing PP-OCRv6 models,選擇存放 PP-OCRv6 模型的目錄,PP-OCRv6 モデルのフォルダを選択
+留空则自动搜索：插件目录 models 、软件目录 models 、用户目录 .umi-ocr/models 。,"Leave empty to auto-search: plugin models/, app models/, and ~/.umi-ocr/models.",留空則自動搜尋：外掛目錄 models 、軟體目錄 models 、使用者目錄 .umi-ocr/models 。,空欄なら自動検索します。
+推理线程数,Inference threads,推理執行緒數,推論スレッド数
+线程,threads,執行緒,スレッド
+单个模型内部的并行线程数。0 = 自动（按 CPU 核心数）。,Intra-op threads per model. 0 = auto (CPU cores).,單一模型內部的平行執行緒數。0 = 自動。,モデル内部の並列スレッド数。0 で自動。
+识别并发批数,Recognition concurrency,辨識並行批數,認識の並列バッチ数
+同时并行推理的文本行批次数量。多核 CPU 上调大可提速。,Number of text-line batches inferred in parallel. Increase on many-core CPUs.,同時平行推理的文字行批次數量。,並列推論するバッチ数。
+识别批大小,Recognition batch size,辨識批次大小,認識バッチサイズ
+每批同时送入识别模型的文本行数量。,Text lines per recognition batch.,每批送入辨識模型的文字行數量。,1バッチあたりの行数。
+常驻内存,Keep models in memory,常駐記憶體,モデルを常駐
+关闭后，切换引擎时会立即释放模型占用的内存。,When off, model memory is released as soon as the engine changes.,關閉後，切換引擎時會立即釋放記憶體。,オフにすると即座に解放します。
+文字识别,Text recognition,文字辨識,文字認識
+模型档位（三档切换）,Model tier (3 tiers),模型檔位（三檔切換）,モデル階層（3段階）
+small - 均衡（推荐）,small - balanced (recommended),small - 均衡（推薦）,small - バランス（推奨）
+tiny - 极速/低配,tiny - fastest / low-end PC,tiny - 極速/低配,tiny - 最速
+medium - 高精度,medium - most accurate,medium - 高精度,medium - 高精度
+三档官方模型：tiny 1.5M 参数最快；small 7.7M 参数速度与精度均衡；medium 34.5M 参数精度最高、速度最慢。,"Three official tiers: tiny 1.5M params (fastest), small 7.7M (balanced), medium 34.5M (most accurate, slowest).",三檔官方模型。,3つの公式モデル階層。
+限制图像边长,Limit image side length,限制影像邊長,画像の辺の長さ制限
+（默认）, (default),（預設）,（既定）
+检测前把图片长边缩放到该值以内。调大更适合小字，但更慢。,Scale the longer side down to this value before detection. Larger = better for small text but slower.,偵測前將圖片長邊縮放到該值以內。,検出前に長辺をこの値まで縮小します。
+方向分类,Text orientation,方向分類,向き分類
+自动纠正 180° 倒置的文本行。需要额外的方向分类模型，缺失时自动跳过。,Auto-correct 180-degree flipped text lines. Requires an extra classifier model; skipped if missing.,自動修正 180° 倒置的文字行。,180度反転した行を補正します。
+检测框阈值,Detection box threshold,偵測框閾值,検出ボックス閾値
+低于该分数的文本框会被丢弃。默认 0.45 。,Text boxes scoring below this are dropped. Default 0.45.,低於該分數的文字框會被丟棄。,この値未満のボックスを破棄します。
+文本框扩张系数,Box expansion ratio,文字框擴張係數,ボックス拡張率
+检测框向外扩张的比例。默认 1.4 。文字被切边时可调大。,How much detected boxes are expanded. Default 1.4. Increase if characters get cut off.,偵測框向外擴張的比例。,検出ボックスの拡張率。
+识别置信度下限,Minimum confidence,辨識置信度下限,信頼度の下限
+丢弃置信度低于该值的结果。0 表示不丢弃。,Drop results below this confidence. 0 = keep all.,丟棄置信度低於該值的結果。,この値未満の結果を破棄します。
+切换 tiny/small/medium 三档模型：请到【截图OCR】或【批量OCR】页面的设置栏 →「文字识别 (PP-OCRv6)」→「模型档位」。各标签页可分别使用不同档位。,"To switch between the tiny/small/medium tiers, open the Screenshot OCR or Batch OCR page settings -> Text recognition (PP-OCRv6) -> Model tier. Each tab can use a different tier.",切換 tiny/small/medium 三檔模型：請到【截圖OCR】或【批次OCR】頁面的設定欄 →「文字辨識 (PP-OCRv6)」→「模型檔位」。,tiny/small/medium の切り替えは、各タブの設定欄「文字認識 (PP-OCRv6)」→「モデル階層」から。

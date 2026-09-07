@@ -1,0 +1,26 @@
+[
+  {
+    "wheel": "onnxruntime-1.19.2-cp38-cp38-win_amd64.whl",
+    "binary": "onnxruntime/capi/onnxruntime.dll",
+    "dll": "KERNEL32.dll",
+    "imports": [
+      "GetSystemTimePreciseAsFileTime"
+    ]
+  },
+  {
+    "wheel": "onnxruntime-1.19.2-cp38-cp38-win_amd64.whl",
+    "binary": "onnxruntime/capi/onnxruntime_pybind11_state.pyd",
+    "dll": "KERNEL32.dll",
+    "imports": [
+      "GetSystemTimePreciseAsFileTime"
+    ]
+  },
+  {
+    "wheel": "onnxruntime-1.17.3-cp38-cp38-win_amd64.whl",
+    "binary": "onnxruntime/capi/onnxruntime_pybind11_state.pyd",
+    "dll": "KERNEL32.dll",
+    "imports": [
+      "GetSystemTimePreciseAsFileTime"
+    ]
+  }
+]

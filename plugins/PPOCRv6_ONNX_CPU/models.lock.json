@@ -1,0 +1,167 @@
+{
+  "format": 1,
+  "PPOCRv6_ONNX_CPU": [
+    {
+      "path": "PP-OCRv6_tiny_det/inference.onnx",
+      "url": "https://huggingface.co/PaddlePaddle/PP-OCRv6_tiny_det_onnx/resolve/2ba1506c0380b8f0b03dd142459aac66d4421f6c/inference.onnx",
+      "sha256": "193bab7a04fca699a6c82e6abb5b81bdb28177f0abd4062552b04908dafb19f8",
+      "size": 1780590,
+      "tier": "tiny",
+      "revision": "2ba1506c0380b8f0b03dd142459aac66d4421f6c",
+      "source": "https://huggingface.co/PaddlePaddle/PP-OCRv6_tiny_det_onnx",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "PP-OCRv6_tiny_det/inference.yml",
+      "url": "https://huggingface.co/PaddlePaddle/PP-OCRv6_tiny_det_onnx/resolve/2ba1506c0380b8f0b03dd142459aac66d4421f6c/inference.yml",
+      "sha256": "3ac018be6f97499a08faa3bbdeb33640968d9307f6736d152902747a9f259593",
+      "size": 883,
+      "tier": "tiny",
+      "revision": "2ba1506c0380b8f0b03dd142459aac66d4421f6c",
+      "source": "https://huggingface.co/PaddlePaddle/PP-OCRv6_tiny_det_onnx",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "PP-OCRv6_tiny_rec/inference.onnx",
+      "url": "https://huggingface.co/PaddlePaddle/PP-OCRv6_tiny_rec_onnx/resolve/2612ab37152ae0a677521bae4e1e3d4fb4cf7c30/inference.onnx",
+      "sha256": "9ef676d6ed3c88256a2d92c640c44f25b0c40947e111b14b8be8f594091563e6",
+      "size": 4462639,
+      "tier": "tiny",
+      "revision": "2612ab37152ae0a677521bae4e1e3d4fb4cf7c30",
+      "source": "https://huggingface.co/PaddlePaddle/PP-OCRv6_tiny_rec_onnx",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "PP-OCRv6_tiny_rec/inference.yml",
+      "url": "https://huggingface.co/PaddlePaddle/PP-OCRv6_tiny_rec_onnx/resolve/2612ab37152ae0a677521bae4e1e3d4fb4cf7c30/inference.yml",
+      "sha256": "66170210bad538e83fff3c4a3867e547d6bf20b50d64b20347c4b913f3034ea1",
+      "size": 55571,
+      "tier": "tiny",
+      "revision": "2612ab37152ae0a677521bae4e1e3d4fb4cf7c30",
+      "source": "https://huggingface.co/PaddlePaddle/PP-OCRv6_tiny_rec_onnx",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "PP-OCRv6_small_det/inference.onnx",
+      "url": "https://huggingface.co/PaddlePaddle/PP-OCRv6_small_det_onnx/resolve/28fe5895c24fd108c19eb3e8479f4ab385fbfc62/inference.onnx",
+      "sha256": "d73e0058b7a8086bbd57f3d10b8bcd4ff95363f67e06e2762b5e814fe9c9410e",
+      "size": 9880512,
+      "tier": "small",
+      "revision": "28fe5895c24fd108c19eb3e8479f4ab385fbfc62",
+      "source": "https://huggingface.co/PaddlePaddle/PP-OCRv6_small_det_onnx",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "PP-OCRv6_small_det/inference.yml",
+      "url": "https://huggingface.co/PaddlePaddle/PP-OCRv6_small_det_onnx/resolve/28fe5895c24fd108c19eb3e8479f4ab385fbfc62/inference.yml",
+      "sha256": "193f435274bf9f0b5f71a929bbfbcf148282df7e633b34e7c373e8f44741b516",
+      "size": 885,
+      "tier": "small",
+      "revision": "28fe5895c24fd108c19eb3e8479f4ab385fbfc62",
+      "source": "https://huggingface.co/PaddlePaddle/PP-OCRv6_small_det_onnx",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "PP-OCRv6_small_rec/inference.onnx",
+      "url": "https://huggingface.co/PaddlePaddle/PP-OCRv6_small_rec_onnx/resolve/b8f84f0b80c529de40b4fbb3544b84fa7233a513/inference.onnx",
+      "sha256": "5435fd747c9e0efe15a96d0b378d5bd157e9492ed8fd80edf08f30d02fa24634",
+      "size": 21159378,
+      "tier": "small",
+      "revision": "b8f84f0b80c529de40b4fbb3544b84fa7233a513",
+      "source": "https://huggingface.co/PaddlePaddle/PP-OCRv6_small_rec_onnx",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "PP-OCRv6_small_rec/inference.yml",
+      "url": "https://huggingface.co/PaddlePaddle/PP-OCRv6_small_rec_onnx/resolve/b8f84f0b80c529de40b4fbb3544b84fa7233a513/inference.yml",
+      "sha256": "ab078671bb49f06228eadccd34f1bb501e157f7a047095ffb943ba81512c77d1",
+      "size": 150579,
+      "tier": "small",
+      "revision": "b8f84f0b80c529de40b4fbb3544b84fa7233a513",
+      "source": "https://huggingface.co/PaddlePaddle/PP-OCRv6_small_rec_onnx",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "PP-OCRv6_medium_det/inference.onnx",
+      "url": "https://huggingface.co/PaddlePaddle/PP-OCRv6_medium_det_onnx/resolve/61323801669c338b7891481ec7bac61ce31b576a/inference.onnx",
+      "sha256": "eb13b44b25bb36f89528b68720af8a61d9cf381176107f465db1757b65d086e1",
+      "size": 62032837,
+      "tier": "medium",
+      "revision": "61323801669c338b7891481ec7bac61ce31b576a",
+      "source": "https://huggingface.co/PaddlePaddle/PP-OCRv6_medium_det_onnx",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "PP-OCRv6_medium_det/inference.yml",
+      "url": "https://huggingface.co/PaddlePaddle/PP-OCRv6_medium_det_onnx/resolve/61323801669c338b7891481ec7bac61ce31b576a/inference.yml",
+      "sha256": "7298d5ead546584af2504d03355f881ac7a7bc0eb1e282d3e159277c1d0af871",
+      "size": 886,
+      "tier": "medium",
+      "revision": "61323801669c338b7891481ec7bac61ce31b576a",
+      "source": "https://huggingface.co/PaddlePaddle/PP-OCRv6_medium_det_onnx",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "PP-OCRv6_medium_rec/inference.onnx",
+      "url": "https://huggingface.co/PaddlePaddle/PP-OCRv6_medium_rec_onnx/resolve/50c7eacafc52fa7bcf4194e8cd08e46f8558504b/inference.onnx",
+      "sha256": "9c09abf0957f7968c7586464b7397b84ad2387a0497a351af40e9acc71b673ba",
+      "size": 76554979,
+      "tier": "medium",
+      "revision": "50c7eacafc52fa7bcf4194e8cd08e46f8558504b",
+      "source": "https://huggingface.co/PaddlePaddle/PP-OCRv6_medium_rec_onnx",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "PP-OCRv6_medium_rec/inference.yml",
+      "url": "https://huggingface.co/PaddlePaddle/PP-OCRv6_medium_rec_onnx/resolve/50c7eacafc52fa7bcf4194e8cd08e46f8558504b/inference.yml",
+      "sha256": "991b700facf5b50a7de193468207d5f4255b538dde0d312ae3b7c7a9b6873129",
+      "size": 150580,
+      "tier": "medium",
+      "revision": "50c7eacafc52fa7bcf4194e8cd08e46f8558504b",
+      "source": "https://huggingface.co/PaddlePaddle/PP-OCRv6_medium_rec_onnx",
+      "license": "Apache-2.0"
+    }
+  ],
+  "HyperLPR3_Plate_CPU": [
+    {
+      "path": "y5fu_320x_sim.onnx",
+      "url": "https://raw.githubusercontent.com/szad670401/HyperLPR/58ad4ef736fec5289e8c8cb842e066e70c4672c3/resource/models/onnx/y5fu_320x_sim.onnx",
+      "sha256": "2a985dc63a5cc947ec36d18503d6fc0fd54525b9dba17f2fe29a71e86b44456d",
+      "size": 2343161,
+      "revision": "58ad4ef736fec5289e8c8cb842e066e70c4672c3",
+      "source": "https://github.com/szad670401/HyperLPR/tree/58ad4ef736fec5289e8c8cb842e066e70c4672c3/resource/models/onnx",
+      "license": "Apache-2.0",
+      "note": "Official upstream historical model; not yet byte-compared with the user's omitted model."
+    },
+    {
+      "path": "y5fu_640x_sim.onnx",
+      "url": "https://raw.githubusercontent.com/szad670401/HyperLPR/58ad4ef736fec5289e8c8cb842e066e70c4672c3/resource/models/onnx/y5fu_640x_sim.onnx",
+      "sha256": "0306de937471b87f56eb3f5620815e7e7058f8ab7428e0734fc64627cc4d716c",
+      "size": 3930791,
+      "revision": "58ad4ef736fec5289e8c8cb842e066e70c4672c3",
+      "source": "https://github.com/szad670401/HyperLPR/tree/58ad4ef736fec5289e8c8cb842e066e70c4672c3/resource/models/onnx",
+      "license": "Apache-2.0",
+      "note": "Official upstream historical model; not yet byte-compared with the user's omitted model."
+    },
+    {
+      "path": "rpv3_mdict_160_r3.onnx",
+      "url": "https://raw.githubusercontent.com/szad670401/HyperLPR/58ad4ef736fec5289e8c8cb842e066e70c4672c3/resource/models/onnx/rpv3_mdict_160_r3.onnx",
+      "sha256": "35521a46fd8beaa6fd942f969bc666f4ef5c8433d2082eae002e6c94c5d307a2",
+      "size": 10258843,
+      "revision": "58ad4ef736fec5289e8c8cb842e066e70c4672c3",
+      "source": "https://github.com/szad670401/HyperLPR/tree/58ad4ef736fec5289e8c8cb842e066e70c4672c3/resource/models/onnx",
+      "license": "Apache-2.0",
+      "note": "Official upstream historical model; not yet byte-compared with the user's omitted model."
+    },
+    {
+      "path": "litemodel_cls_96x_r1.onnx",
+      "url": "https://raw.githubusercontent.com/szad670401/HyperLPR/58ad4ef736fec5289e8c8cb842e066e70c4672c3/resource/models/onnx/litemodel_cls_96x_r1.onnx",
+      "sha256": "fe123688d3bf08b9ef029fcd57f3ac4644ac2e5ef8b9e7a676aacd5fad152142",
+      "size": 1604473,
+      "revision": "58ad4ef736fec5289e8c8cb842e066e70c4672c3",
+      "source": "https://github.com/szad670401/HyperLPR/tree/58ad4ef736fec5289e8c8cb842e066e70c4672c3/resource/models/onnx",
+      "license": "Apache-2.0",
+      "note": "Official upstream historical model; not yet byte-compared with the user's omitted model."
+    }
+  ]
+}
