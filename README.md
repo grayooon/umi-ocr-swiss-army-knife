@@ -4,7 +4,7 @@
        alt="Umi-OCR OCR 插件瑞士军刀"
        width="100%">
 </p>
-为 Umi-OCR 增加 **PP-OCRv6 通用文字识别、HyperLPR3 车牌识别、ddddocr 验证码识别** 。一次下载依赖和模型，之后在本机离线识别；不需要注册账号、申请 API Key 或安装系统 Python。
+为 Umi-OCR 增加PP-OCRv6 通用文字识别、HyperLPR3 车牌识别、ddddocr 验证码识别。一次下载依赖和模型，之后在本机离线识别；不需要注册账号、申请 API Key 或安装系统 Python。
 
 本项目是社区插件合集，基于 [Umi-OCR](https://github.com/hiroi-sora/Umi-OCR) 的插件接口开发，与 Umi-OCR 官方项目独立维护。模型和识别算法来自相应上游项目，本项目主要提供插件适配、配置、部署和进程隔离。
 
