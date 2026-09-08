@@ -16,9 +16,9 @@
 
 | 插件 | 用途 | 下载 |
 | --- | --- | --- |
-| PP-OCRv6 | 文档、截图、通用文字识别 | [下载 PP-OCRv6](https://github.com/grayooon/umi-ocr-swiss-army-knife/releases/download/v1.1.0-rc.1/PPOCRv6_ONNX_CPU-v1.1.0-rc.1.zip) |
-| HyperLPR3 | 中国车牌识别 | [下载 HyperLPR3](https://github.com/grayooon/umi-ocr-swiss-army-knife/releases/download/v1.1.0-rc.1/HyperLPR3_Plate_CPU-v1.1.0-rc.1.zip) |
-| ddddocr | 字母数字验证码识别 | [下载 ddddocr](https://github.com/grayooon/umi-ocr-swiss-army-knife/releases/download/v1.1.0-rc.1/DDDDOCR_Captcha_Umi-v1.1.0-rc.1.zip) |
+| PP-OCRv6 | 文档、截图、通用文字识别 | [下载 PP-OCRv6](https://github.com/grayooon/umi-ocr-swiss-army-knife/releases/download/v1.1.0/PPOCRv6_ONNX_CPU-v1.1.0.zip) |
+| HyperLPR3 | 中国车牌识别 | [下载 HyperLPR3](https://github.com/grayooon/umi-ocr-swiss-army-knife/releases/download/v1.1.0/HyperLPR3_Plate_CPU-v1.1.0.zip) |
+| ddddocr | 字母数字验证码识别 | [下载 ddddocr](https://github.com/grayooon/umi-ocr-swiss-army-knife/releases/download/v1.1.0/DDDDOCR_Captcha_Umi-v1.1.0.zip) |
 
 > 第一次安装需要联网下载依赖和模型；安装完成后可以断网识别。
 
