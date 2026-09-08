@@ -156,6 +156,6 @@ ddddocr 的“四位、小写加数字”仅适用于对应样本。如果识别
 
 本项目新增集成代码采用 Apache-2.0；第三方代码、模型和依赖各自遵循其原有许可。详见 [LICENSE](LICENSE)、[NOTICE.md](NOTICE.md) 和 [第三方声明](THIRD_PARTY_NOTICES.md)。本项目不把上游模型宣称为自研，也不代表上游提供维护承诺。
 
-欢迎提交可复现的问题、离线/Win7 实测结果与改进建议。开发与提交流程见 [CONTRIBUTING.md](CONTRIBUTING.md)，版本变化见 [CHANGELOG.md](CHANGELOG.md)。维护者首次发布请阅读 [完整 GitHub 发布教程](docs/PUBLISH_GUIDE.md)。
+欢迎提交可复现的问题、尝试Win7适配的结果与改进建议。开发与提交流程见 [CONTRIBUTING.md](CONTRIBUTING.md)，版本变化见 [CHANGELOG.md](CHANGELOG.md)。维护者首次发布请阅读 [完整 GitHub 发布教程](docs/PUBLISH_GUIDE.md)。
 
 如果项目帮助到了你，可以点 Star 收藏，或分享带安装步骤的仓库链接。
