@@ -18,6 +18,37 @@
 
 > 第一次安装需要联网下载依赖和模型；安装完成后可以断网识别。
 
+## 极简安装教程
+
+1. 从 [Releases](https://github.com/grayooon/umi-ocr-swiss-army-knife/releases) 下载以下三个插件压缩包：
+
+   * `PPOCRv6_ONNX_CPU`
+   * `HyperLPR3_Plate_CPU`
+   * `DDDDOCR_Captcha_Umi`
+
+2. 解压后得到三个同名文件夹，将它们复制到：
+
+   ```text
+   .\Umi-OCR_Paddle_v2.1.5\UmiOCR-data\plugins\
+   ```
+
+3. 完全退出 Umi-OCR，依次进入三个插件的 `tools` 文件夹，双击：
+
+   ```text
+   01_setup_online.bat
+   ```
+
+4. 脚本会联网下载并安装所需依赖和模型。网络正常时，每个插件通常需要几十秒；看到 `Files installed` 表示安装完成。
+
+5. 双击启动：
+
+   ```text
+   .\Umi-OCR_Paddle_v2.1.5\Umi-OCR.exe
+   ```
+
+6. 进入 Umi-OCR 的“全局设置”，即可选择并使用新安装的 OCR 插件。
+
+
 ## 选择哪个插件
 
 | 插件目录名 | 用途 | 默认安装内容 | 起始设置 |
@@ -25,7 +56,6 @@
 | `PPOCRv6_ONNX_CPU` | 文档、截图等通用文字 | small 检测与识别模型、对应配置 | small；关闭可选方向分类 |
 | `HyperLPR3_Plate_CPU` | 中国车牌 | 320/640 检测、识别、车牌分类，共 4 个模型 | low；保持其余默认值 |
 | `DDDDOCR_Captcha_Umi` | 单行字母数字验证码 | ddddocr 1.5.6 及经典/Beta 模型 | Beta；按图片调整字符范围与长度 |
-
 
 ## 第一次安装：无门槛详细教程
 
