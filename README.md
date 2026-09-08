@@ -20,7 +20,7 @@
 
 ## 极简安装教程
 
-**前置条件：**先从 [Umi-OCR 官方仓库](https://github.com/hiroi-sora/Umi-OCR) 下载并确认 Umi-OCR 可以正常运行。
+**前置条件：** 先从 [Umi-OCR 官方仓库](https://github.com/hiroi-sora/Umi-OCR) 下载并确认 Umi-OCR 可以正常运行。
 
 1. 从本项目的 [Releases](https://github.com/grayooon/umi-ocr-swiss-army-knife/releases) 下载以下三个插件压缩包：
 
