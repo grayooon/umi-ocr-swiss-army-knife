@@ -1,5 +1,9 @@
 # 基于 Umi-OCR 的 OCR 瑞士军刀
-
+<p align="center">
+  <img src="./docs/images/social-preview.png"
+       alt="Umi-OCR OCR 插件瑞士军刀"
+       width="100%">
+</p>
 为 Umi-OCR 增加 **PP-OCRv6 通用文字识别、HyperLPR3 车牌识别、ddddocr 验证码识别**。一次下载依赖和模型，之后在本机离线识别；不需要注册账号、申请 API Key 或安装系统 Python。
 
 本项目是社区插件合集，基于 [Umi-OCR](https://github.com/hiroi-sora/Umi-OCR) 的插件接口开发，与 Umi-OCR 官方项目独立维护。模型和识别算法来自相应上游项目，本项目主要提供插件适配、配置、部署和进程隔离。
@@ -50,6 +54,17 @@
 
 6. 进入 Umi-OCR 的“全局设置”，即可选择并使用新安装的 OCR 插件。
 
+## 软件界面
+
+<p align="center">
+  <img src="./docs/images/umi-ocr-screenshot.png"
+       alt="Umi-OCR 三插件使用界面"
+       width="900">
+</p>
+
+<p align="center">
+  在 Umi-OCR 全局设置中切换 PP-OCRv6、HyperLPR3 和 ddddocr 插件。
+</p>
 
 ## 选择哪个插件
 
