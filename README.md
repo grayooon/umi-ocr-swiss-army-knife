@@ -1,6 +1,6 @@
 # 基于 Umi-OCR 的 OCR 瑞士军刀
 <p align="center">
-  <img src="./docs/images/social-preview.png"
+  <img src="./docs/images/UmiOCR_social-preview.png"
        alt="Umi-OCR OCR 插件瑞士军刀"
        width="100%">
 </p>
