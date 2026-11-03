@@ -1,6 +1,6 @@
 {
   "plugin": "DDDDOCR_Captcha_Umi",
-  "profile": "Windows CPython 3.8 x64 candidate; Win7 unverified",
+  "profile": "Windows CPython 3.8 x64 stable; Windows 10 x64 minimum target; Win7 not supported",
   "wheels": [
     {
       "name": "numpy",

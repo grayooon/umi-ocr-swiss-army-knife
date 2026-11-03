@@ -161,7 +161,7 @@ def main():
     if os.name != 'nt' or sys.version_info[:2] != (3,8) or struct.calcsize('P') != 8:
         raise RuntimeError('Requires Umi-OCR Windows CPython 3.8 x64. Do not use the system Python.')
     if args.action in ('all','deps') and sys.getwindowsversion()[:2] <= (6,1):
-        raise RuntimeError('The pinned official ONNX Runtime DLL imports a Windows 8+ API. Win7 dependency downloads are blocked in this candidate. Keep your existing dependencies for maintainer hardware tests; no verified Win7 bundle is included. Existing files have NOT been changed. See README.md.')
+        raise RuntimeError('The pinned official ONNX Runtime DLL imports a Windows 8+ API. Win7 dependency downloads are blocked in this release. Do not overwrite existing compatible dependencies; no verified Win7 bundle is included. Existing files have NOT been changed. See README.md.')
     print('Plugin: ' + str(PLUGIN))
     print('Close Umi-OCR including its tray icon before setup. No administrator rights needed.')
     if args.action in ('all','deps'):

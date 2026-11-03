@@ -1,6 +1,6 @@
 # 运行依赖与下载说明
 
-此清单为 Windows CPython 3.8 x64 候选安装方案，不等于 Win7 DLL 兼容保证。实际文件 URL、SHA-256、大小与依赖元数据记录在 dependencies.lock.json；每个插件 tools/assets.lock.json 是该插件安装器直接使用的清单。
+此清单用于 Windows CPython 3.8 x64 正式安装方案，当前最低目标系统为 Windows 10 x64，不提供 Win7 DLL 兼容保证。实际文件 URL、SHA-256、大小与依赖元数据记录在 dependencies.lock.json；每个插件 tools/assets.lock.json 是该插件安装器直接使用的清单。
 
 Python 版本、wheel ABI、操作系统接口和模型 IR 是不同条件。cp38 表示 Python 接口，不表示该 DLL 能在 Win7 运行。参见 docs/WINDOWS_ACCEPTANCE.md。
 
@@ -39,4 +39,4 @@ Python 版本、wheel ABI、操作系统接口和模型 IR 是不同条件。cp3
 
 安装器缓存目录 `_downloads` 按文件 SHA-256 命名，这是正常设计。缺少源文件、证书验证失败或哈希不同会停止；不要使用关闭 HTTPS 校验的办法继续。如果需要维护者更换下载源，应重新核查来源并更新公开清单。
 
-Win7 上沿用现有兼容依赖实测时，不运行依赖安装器覆盖它们。正式支持 Win7 的全新下载方案需要锁定实际通过的 DLL 构建和来源；当前这一步仍等待维护者实机结果。
+不要在 Win7 上运行依赖安装器覆盖已有的兼容依赖。本项目没有公开提供已验证的 Win7 兼容依赖包；维护者完成 Windows 测试的确认不扩大这一支持范围。

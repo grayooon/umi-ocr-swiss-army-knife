@@ -1,6 +1,6 @@
 # 运行依赖与下载说明
 
-此清单为 Windows CPython 3.8 x64 候选安装方案，不为 Win7 DLL 兼容保证。实际文件 URL、SHA-256、大小与依赖元数据记录在 dependencies.lock.json；每个插件 tools/assets.lock.json 是该插件安装器直接使用的清单。
+此清单用于 Windows CPython 3.8 x64 正式安装方案，当前最低目标系统为 Windows 10 x64，不提供 Win7 DLL 兼容保证。实际文件 URL、SHA-256、大小与依赖元数据记录在 dependencies.lock.json；每个插件 tools/assets.lock.json 是该插件安装器直接使用的清单。
 
 Python 版本、wheel ABI、操作系统接口和模型 IR 是不同条件。cp38 表示 Python 接口，不表示该 DLL 能在 Win7 运行。参见 docs/WINDOWS_ACCEPTANCE.md。
 

@@ -2,7 +2,7 @@
   "format": 1,
   "python": "3.8",
   "architecture": "win_amd64",
-  "status": "candidate; Windows and Win7 end-to-end tests required",
+  "status": "stable; Windows testing confirmed by maintainer; Win7 not supported by the pinned installer",
   "resolved_at": "2026-09-07",
   "wheels": [
     {

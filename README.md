@@ -8,7 +8,9 @@
 
 本项目是社区插件合集，基于 [Umi-OCR](https://github.com/hiroi-sora/Umi-OCR) 的插件接口开发，与 Umi-OCR 官方项目独立维护。模型和识别算法来自相应上游项目，本项目主要提供插件适配、配置、部署和进程隔离。
 
-**当前版本：1.1.0，正式版。最低目标系统为 Windows 10 x64。** 
+**当前版本：1.1.0，正式版。最低目标系统为 Windows 10 x64。**
+
+维护者已确认完成 Windows 实测。当前源码的四份版本号已统一；已发布 ZIP 与历史标签保持不变，包内旧标记及验证范围见 [当前版本说明](docs/RELEASE_STATUS.md)。
 
 ## 立即下载
 
@@ -113,7 +115,7 @@
 | ddddocr 经典模型 | `site-packages\ddddocr\common_old.onnx` |
 | 离线重装缓存 | `_downloads\`，文件名是 SHA-256，不要自行改名 |
 
-ddddocr 两个模型随其官方 wheel 一起下载，并非安装遗漏。本候选版保留官方包原样数据，包内额外的检测权重不用于上述验证码识别模式。
+ddddocr 两个模型随其官方 wheel 一起下载，并非安装遗漏。本版保留官方包原样数据，包内额外的检测权重不用于上述验证码识别模式。
 
 PP-OCRv6 想用 tiny：双击 `tools\download_tiny_models.bat`，成功后在 Umi 里选择 tiny。想安装 tiny/small/medium 全部档位：双击 `tools\download_all_models.bat`。不要在未下载 medium 时直接切换到 medium。可选方向分类模型不在本次自动下载清单内，保持该选项关闭即可使用标准检测与识别流程。
 
@@ -141,7 +143,7 @@ ddddocr 的“四位、小写加数字”仅适用于对应样本。如果识别
 | 现象 | 处理方式 |
 | --- | --- |
 | 找不到 Python | 检查上述目录层级；不能隔着多一层解压目录；先安装/解压完整 Umi-OCR |
-| Win7 下载依赖被拒绝 | 已知官方 ORT DLL 不兼容，不是被杀毒软件误拦；维护者沿用现有包实测，普通用户等待 Win7 发行包 |
+| Win7 下载依赖被拒绝 | 已知官方 ORT DLL 不兼容，不是被杀毒软件误拦；当前公开安装方案不支持 Win7，未提供兼容发行包 |
 | 下载失败、超时 | 网络未能访问清单内的源；可在能访问这些源的电脑准备完整插件后复制过来；不要关闭 HTTPS 证书校验 |
 | SHA-256 不一致 | 停止使用该文件；重试下载，仍失败则报告具体文件名；不要删除校验代码 |
 | `site-packages.previous already exists` | 先退出 Umi；将该备份文件夹剪切到另外的备份位置，再重试；不要混用两套包 |
@@ -158,6 +160,6 @@ ddddocr 的“四位、小写加数字”仅适用于对应样本。如果识别
 
 本项目新增集成代码采用 Apache-2.0；第三方代码、模型和依赖各自遵循其原有许可。详见 [LICENSE](LICENSE)、[NOTICE.md](NOTICE.md) 和 [第三方声明](THIRD_PARTY_NOTICES.md)。本项目不把上游模型宣称为自研，也不代表上游提供维护承诺。
 
-欢迎提交可复现的问题、尝试Win7适配的结果与改进建议。开发与提交流程见 [CONTRIBUTING.md](CONTRIBUTING.md)，版本变化见 [CHANGELOG.md](CHANGELOG.md)。维护者首次发布请阅读 [完整 GitHub 发布教程](docs/PUBLISH_GUIDE.md)。
+欢迎提交可复现的问题、尝试Win7适配的结果与改进建议。开发与提交流程见 [CONTRIBUTING.md](CONTRIBUTING.md)，版本变化见 [CHANGELOG.md](CHANGELOG.md)。发布工具和现有附件的校验方法见 [发布与校验指南](docs/PUBLISH_GUIDE.md)。
 
 如果项目帮助到了你，可以点 Star 收藏，或分享带安装步骤的仓库链接。
