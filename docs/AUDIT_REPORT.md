@@ -1,5 +1,7 @@
 # 三插件源码审查与修订报告
 
+> 历史记录：本报告保留 2026-09-07 的审查对象、结果和当时待验收状态，不能作为当前版本状态说明。维护者之后已确认完成 Windows 实测；当前正式版及证据边界见 [当前版本说明](RELEASE_STATUS.md) 与 [Windows 验证说明](WINDOWS_ACCEPTANCE.md)。原始证据未被改写。
+
 审查日期：2026-09-07。审查对象：作者上传的“核心代码（不包含模型和sitepackages和pipboot）.zip”。逐文件基线散列见 `evidence/original-inventory.json`。
 
 ## 结论与范围
