@@ -22,6 +22,8 @@
 
 > 第一次安装需要联网下载依赖和模型；安装完成后可以断网识别。
 
+`SHA256SUMS.txt` 是可选的压缩包校验清单，不是插件文件或运行依赖；是否提供以对应 Release 的实际附件为准。GitHub 自动提供的两份 `Source code` 是整仓源码，不是另外两个插件。校验与发布步骤见 [发布指南](docs/PUBLISH_GUIDE.md)。
+
 ## 极简安装教程
 
 **前置条件：** 先从 [Umi-OCR 官方仓库](https://github.com/hiroi-sora/Umi-OCR) 下载并确认 Umi-OCR 可以正常运行。
